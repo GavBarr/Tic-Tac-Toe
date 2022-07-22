@@ -1,0 +1,157 @@
+* {margin: 0; padding: 0; box-sizing: border-box; user-select: none;}
+
+
+body
+{
+	background-image: url('../img/goku-back.jpg');
+	background-size: 2450px;
+	position: relative;
+
+
+
+
+}
+
+h2#game-message
+{
+	font-size: 125px;
+	font-family: copperplate, fantasy;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+
+}
+
+h3
+{
+	font-size: 80px;
+	font-family: copperplate, fantasy;
+	margin-bottom: 20px;
+	left: 100px;
+	bottom: 1000px;
+	color: white;
+	text-align: left;
+	
+
+}
+
+div#game-board
+{
+	overflow: hidden;
+	margin: 20px auto;
+	width: 605px;
+	color: white;
+	
+}
+div[id^="row-"] {clear:both;}
+div[id^="row-"] div
+{
+	border: 10px dotted rgb(252, 119, 3);
+	height: 200px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	font-family: chiller;
+	font-size: 150px;
+	
+	
+}
+button#button
+{
+	font-size: 100px;
+	background-color: rgb(252, 119, 3);
+	display: flex;
+	margin: auto;
+	font-family: copperplate, fantasy;
+	text-align: center;
+	color: white;
+
+}
+
+div#player1
+{
+	font-size: 75px;
+	background-color: rgb(252, 119, 3);
+	display: flex;
+	margin: auto;
+	font-family: copperplate, fantasy;
+	text-align: center;
+	color: white;
+	top: 60px;
+	left: 253px;
+	position: absolute;
+
+}
+
+div#cat
+{
+	font-size: 75px;
+	background-color: rgb(252, 119, 3);
+	display: flex;
+	margin: auto;
+	font-family: copperplate, fantasy;
+	text-align: center;
+	color: white;
+	top: 239px;
+	left: 155px;
+	position: absolute;
+
+}
+
+div.tie
+{
+	font-size: 50px;
+	background-color: rgb(252, 119, 3);
+	display: flex;
+	margin: auto;
+	font-family: copperplate, fantasy;
+	text-align: center;
+	color: white;
+	top: 167px;
+	left: 118px;
+	position: absolute;
+
+}
+
+div#player2
+{
+	font-size: 75px;
+	background-color: rgb(252, 119, 3);
+	display: flex;
+	margin: auto;
+	font-family: copperplate, fantasy;
+	text-align: center;
+	color: white;
+	top: 60px;
+	left: 50px;
+	position: absolute;
+
+}
+
+div.player
+{
+	font-size: 50px;
+	background-color: rgb(252, 119, 3);
+	display: flex;
+	margin: auto;
+	font-family: copperplate, fantasy;
+	text-align: center;
+	color: white;
+
+}
+
+
+.score-board 
+{
+    width: 400px;
+    height: 500px;
+    background: rgb(252, 119, 3);
+    position: absolute;
+    top: 290px;
+		text-align: left;
+}
+
+.winner
+{
+	font: blue;
+}
